@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;   
+   }
+   
+html{
+       scroll-behavior: smooth;
+   }
+   
+ header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .logo img{
+    display: flex;
+    width: 130px;
+}
+
+header .navbar a{
+    display: inline-flex;
+    font-size: 20px;
+    padding: 0 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+header .navbar a:hover{
+    color: red;
+} 
+
+body{
+    display: flex;
+    min-height: 100vh;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: url(./c9d9c14afa72098b3d73a9e9bf9fc827.jpg);
+}
+
+.container{
+
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background: white;
+    padding: 25px;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container .form{
+    margin-top: 30px;
+}
+
+.form .inputbox input{
+    height: 30px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.form .bullet label{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.form .bullet input{
+    column-gap: 2px;
+}
+
+
+ .form button{
+    height: 55px;
+    width: 100%;
+    font-size: 30px;
+    border: 0px;
+}
+
+.form button:hover{
+    background-color: #F7C954;
+}
+
+.footer{
+    background-color: #F7C954;
+    position: absolute;
+    display: flex;
+    width: 1583px;
+    height: 238px;
+    left: 0px;
+    top: 870px;
+}
+
+.footer .ig img{
+    display: flex;
+    position: absolute;
+    width: 90px;
+    left: 100px;
+    top: 80px;
+}
+
+.footer .ig h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 40px;
+    top: 100px;
+    left: 210px;
+}
+
+.footer .WA img{
+    display: flex;
+    position: absolute;
+    width: 90px;
+    left: 550px;
+    top: 87px;
+}
+
+.footer .WA h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 40px;
+    top: 100px;
+    left: 640px;
+}
+
+.footer .fb img{
+    display: flex;
+    position: absolute;
+    width: 80px;
+    left: 1050px;
+    top: 83px;
+}
+
+.footer .fb h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 40px;
+    top: 100px;
+    left: 1160px;
+} 
+
+@media (min-width: 768px){
+    
+}

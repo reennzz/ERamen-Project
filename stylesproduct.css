@@ -1,0 +1,776 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;   
+   }
+   
+html{
+       scroll-behavior: smooth;
+   }
+
+section{
+    padding: 2rem 9%;
+}
+   
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .logo img{
+    display: flex;
+    width: 130px;
+}
+
+header .navbar a{
+    font-size: 20px;
+    padding: 0 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+header .navbar a:hover{
+    color: red;
+}
+
+.background{
+    background: url(./images/70aad59dbc6a3df605a338b0a9b8b68f.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 1700px;
+    height: 2628px;
+    right: 0.1px;
+    top: 100px;
+}
+
+.rectangle{
+    display: flex;
+    background-color: black;
+    opacity: 65%;
+    position: absolute;
+    width: 1550px;
+    height: 2524px;
+    left: 20px;
+    top: 150px;
+}
+
+.maindish h1{
+    display: flex;
+    position: absolute;
+    color: white;
+    font-weight: lighter;
+    font-size: 40px;
+    top: 190px;
+    left: 700px;
+}
+
+.maindish .rectangle1{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    width: 340px;
+    height: 476px;
+    left: 60px;
+    top: 280px;
+    border-radius: 10%;
+}
+
+.maindish .rectangle1 img{
+    display: flex;
+    position: absolute;
+    width: 260px;
+    left: 50px;
+    top: 20px;
+}
+
+.maindish .rectangle1 h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+    top: 280px;
+    left: 90px;
+}
+
+.maindish .rectangle1 h2{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    top: 390px;
+    left: 80px;
+}
+
+.maindish .rectangle2{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    width: 340px;
+    height: 476px;
+    left: 450px;
+    top: 280px;
+    border-radius: 10%;
+}
+
+.maindish .rectangle2 img{
+    display: flex;
+    position: absolute;
+    width: 340px;
+    top: 70px;
+    left: 42px;
+}
+
+.maindish .rectangle2 h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+    left: 50px;
+    top: 280px;
+}
+
+.maindish .rectangle2 h2{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    left: 80px;
+    top: 386px;
+}
+
+.maindish .rectangle3{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    width: 340px;
+    height: 476px;
+    left: 820px;
+    top: 280px;
+    border-radius: 10%;
+}
+
+.maindish .rectangle3 img{
+    display: flex;
+    position: absolute;
+    width: 265px;
+    left: 45px;
+}
+
+.maindish .rectangle3 h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+    left: 58px;
+    top: 280px;
+}
+
+.maindish .rectangle3 h2{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    left: 80px;
+    top: 380px;
+}
+
+.maindish .rectangle4{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    width: 340px;
+    height: 476px;
+    left: 1200px;
+    top: 280px;
+    border-radius: 10%;
+}
+
+.maindish .rectangle4 img{
+    display: flex;
+    position: absolute;
+    width: 220px;
+    left: 75px;
+    top: 50px;
+}
+
+.maindish .rectangle4 h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+    left: 85px;
+    top: 280px;
+}
+
+.maindish .rectangle4 h2{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    left: 77px;
+    top: 380px;
+}
+
+.maindish .rectangle5{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    width: 340px;
+    height: 476px;
+    left: 60px;
+    top: 780px;
+    border-radius: 10%;
+}
+
+.maindish .rectangle5 img{
+    display: flex;
+    position: absolute;
+    width: 220px;
+    left: 70px;
+    top: 90px;
+}
+
+.maindish .rectangle5 h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+    left: 90px;
+    top: 280px;
+}
+
+.maindish .rectangle5 h2{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: bolder;
+    font-size: 36px;
+    left: 85px;
+    top: 380px;
+}
+
+.maindish .rectangle6{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    width: 340px;
+    height: 476px;
+    left: 450px;
+    top: 780px;
+    border-radius: 10%;
+}
+
+.maindish .rectangle6 img{
+    display: flex;
+    position: absolute;
+    width: 220px;
+    left: 70px;
+}
+
+.maindish .rectangle6 h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+    left: 85px;
+    top: 275px;
+}
+
+.maindish .rectangle6 h2{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    left: 90px;
+    top: 375px;
+}
+
+.maindish .rectangle7{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    width: 340px;
+    height: 476px;
+    left: 820px;
+    top: 780px;
+    border-radius: 10%;
+}
+
+.maindish .rectangle7 img{
+    display: flex;
+    position: absolute;
+    width: 200px;
+    left: 80px;
+}
+
+.maindish .rectangle7 h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    font-weight: lighter;
+    left: 90px;
+    top: 280px;
+}
+
+.maindish .rectangle7 h2{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    left: 85px;
+    top: 380px;
+}
+
+.maindish .rectangle8{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    width: 340px;
+    height: 476px;
+    left: 1200px;
+    top: 780px;
+    border-radius: 10%;
+}
+
+.maindish .rectangle8 img{
+    display: flex;
+    position: absolute;
+    width: 220px;
+    left: 75px;
+    top: 5px;
+}
+
+.maindish .rectangle8 h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+    left: 100px;
+    top: 280px;
+}
+
+.maindish .rectangle8 h2{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    left: 85px;
+    top: 375px;
+}
+
+.sidedish h1{
+    display: flex;
+    position: absolute;
+    color: white;
+    font-weight: lighter;
+    font-size: 40px;
+    top: 1300px;
+    left: 720px;
+}
+
+.sidedish .rectangle9{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    width: 340px;
+    height: 476px;
+    left: 60px;
+    top: 1360px;
+    border-radius: 10%;
+}
+
+.sidedish .rectangle9 img{
+    display: flex;
+    position: absolute;
+    width: 240px;
+    left: 50px;
+    top: 30px;
+}
+
+.sidedish .rectangle9 h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+    top: 270px;
+    left: 100px;
+}
+
+.sidedish .rectangle9 h2{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    left: 80px;
+    top: 380px;
+}
+
+.sidedish .rectangle10{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    width: 340px;
+    height: 476px;
+    left: 450px;
+    top: 1360px;
+    border-radius: 10%;
+}
+
+.sidedish .rectangle10 img{
+    display: flex;
+    position: absolute;
+    width: 240px;
+    left: 65px;
+    top: 90px;
+}
+
+.sidedish .rectangle10 h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+    top: 270px;
+    left: 130px;
+}
+
+.sidedish .rectangle10 h2{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    top: 375px;
+    left: 85px;
+}
+
+.sidedish .rectangle11{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    width: 340px;
+    height: 476px;
+    left: 820px;
+    top: 1360px;
+    border-radius: 10%;
+}
+
+.sidedish .rectangle11 img{
+    display: flex;
+    position: absolute;
+    width: 240px;
+    left: 60px;
+    top: 90px;
+}
+
+.sidedish .rectangle11 h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+    top: 270px;
+    left: 110px;
+}
+
+.sidedish .rectangle11 h2{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    top: 370px;
+    left: 90px;
+}
+
+.sidedish .rectangle12{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    width: 340px;
+    height: 476px;
+    left: 1200px;
+    top: 1360px;
+    border-radius: 10%;
+}
+
+.sidedish .rectangle12 img{
+    display: flex;
+    position: absolute;
+    width: 240px;
+    left: 60px;
+    top: 60px;
+}
+
+.sidedish .rectangle12 h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+    top: 270px;
+    left: 110px;
+}
+
+.sidedish .rectangle12 h2{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    top: 370px;
+    left: 80px;
+}
+
+.beverage h1{
+    display: flex;
+    position: absolute;
+    color: white;
+    font-weight: lighter;
+    font-size: 40px;
+    top: 1900px;
+    left: 720px;
+}
+
+.beverage .rectangle13{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    width: 340px;
+    height: 476px;
+    left: 60px;
+    top: 2000px;
+    border-radius: 10%;
+}
+
+.beverage .rectangle13 img{
+    display: flex;
+    position: absolute;
+    width: 200px;
+    left: 80px;
+}
+
+.beverage .rectangle13 h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+    left: 140px;
+    top: 260px;
+}
+
+.beverage .rectangle13 h2{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    left: 90px;
+    top: 360px;
+}
+
+.beverage .rectangle14{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    width: 340px;
+    height: 476px;
+    left: 450px;
+    top: 2000px;
+    border-radius: 10%;
+}
+
+.beverage .rectangle14 img{
+    display: flex;
+    position: absolute;
+    width: 130px;
+    left: 100px;
+}
+
+.beverage .rectangle14 h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+    top: 260px;
+    left: 130px;
+}
+
+.beverage .rectangle14 h2{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    left: 90px;
+    top: 360px;
+}
+
+.beverage .rectangle15{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    width: 340px;
+    height: 476px;
+    left: 820px;
+    top: 2000px;
+    border-radius: 10%;
+}
+
+.beverage .rectangle15 img{
+    display: flex;
+    position: absolute;
+    width: 160px;
+    left: 110px;
+}
+
+.beverage .rectangle15 h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+    top: 260px;
+    left: 90px;
+}
+
+.beverage .rectangle15 h2{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    left: 90px;
+    top: 360px;
+}
+
+.beverage .rectangle16{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    width: 340px;
+    height: 476px;
+    left: 1200px;
+    top: 2000px;
+    border-radius: 10%;
+}
+
+.beverage .rectangle16 img{
+    display: flex;
+    position: absolute;
+    width: 190px;
+    left: 80px;
+}
+
+.beverage .rectangle16 h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+    top: 260px;
+    left: 120px;
+}
+
+.beverage .rectangle16 h2{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    left: 90px;
+    top: 360px;
+}
+
+.footer{
+    background-color: #F7C954;
+    position: absolute;
+    width: 1583px;
+    height: 238px;
+    left: 0px;
+    top: 2700px;
+}
+
+.footer .ig img{
+    display: flex;
+    position: absolute;
+    width: 90px;
+    left: 100px;
+    top: 80px;
+}
+
+.footer .ig h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 40px;
+    top: 100px;
+    left: 210px;
+}
+
+.footer .WA img{
+    display: flex;
+    position: absolute;
+    width: 90px;
+    left: 550px;
+    top: 87px;
+}
+
+.footer .WA h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 40px;
+    top: 100px;
+    left: 640px;
+}
+
+.footer .fb img{
+    display: flex;
+    position: absolute;
+    width: 80px;
+    left: 1050px;
+    top: 83px;
+}
+
+.footer .fb h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 40px;
+    top: 100px;
+    left: 1160px;
+}

@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;   
+   }
+   
+html{
+       scroll-behavior: smooth;
+   }
+
+section{
+    padding: 2rem 9%;
+}
+   
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .logo img{
+    display: flex;
+    width: 130px;
+}
+
+header .navbar a{
+    font-size: 20px;
+    padding: 0 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+header .navbar a:hover{
+    color: red;
+}
+
+.background{
+    background: url(./images/4afebd2a1ded1d531074448eb51294e5.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 1700px;
+    height: 2628px;
+    right: 0.1px;
+    top: 100px;
+}
+
+.promote img{
+    display: flex;
+    position: absolute;
+    top: 115px;
+    width: 1583px;
+    height: 590px;
+    left: 0px;
+}
+
+.rectangle1{
+    display: flex;
+    position: absolute;
+    background-color: pink;
+    opacity: 80%;
+    width: 700px;
+    height: 350px;
+    top: 800px;
+    left: 30px;
+    border-radius: 30px;
+}
+
+.rectangle1 img{
+    display: flex;
+    position: absolute;
+    width: 250px;
+    left: 60px;
+    top: 90px;
+}
+
+.rectangle1 h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    top: 90px;
+    left: 370px;
+}
+
+.rectangle1 h2{
+    display: flex;
+    position: absolute;
+    color: red;
+    font-size: 36px;
+    font-weight: bold;
+    top: 190px;
+    left: 370px;
+}
+
+.rectangle2{
+    display: flex;
+    position: absolute;
+    background-color: pink;
+    opacity: 80%;
+    width: 700px;
+    height: 350px;
+    top: 800px;
+    left: 850px;
+    border-radius: 30px;
+}
+
+.rectangle2 img{
+    display: flex;
+    position: absolute;
+    width: 200px;
+    left: 100px;
+    top: 80px;
+}
+
+.rectangle2 h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    top: 90px;
+    left: 380px;
+}
+
+.rectangle2 h2{
+    display: flex;
+    position: absolute;
+    color: red;
+    font-size: 36px;
+    font-weight: bold;
+    top: 190px;
+    left: 380px;
+}
+
+.rectangle3{
+    display: flex;
+    position: absolute;
+    background-color: pink;
+    opacity: 80%;
+    width: 700px;
+    height: 350px;
+    top: 1500px;
+    left: 30px;
+    border-radius: 30px;
+}
+
+.rectangle3 img{
+    display: flex;
+    position: absolute;
+    width: 230px;
+    left: 100px;
+    top: 70px;
+}
+
+.rectangle3 h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    top: 90px;
+    left: 380px;
+}
+
+.rectangle3 h2{
+    display: flex;
+    position: absolute;
+    color: red;
+    font-size: 36px;
+    font-weight: bold;
+    top: 190px;
+    left: 380px;
+}
+
+.rectangle4{
+    display: flex;
+    position: absolute;
+    background-color: pink;
+    opacity: 80%;
+    width: 700px;
+    height: 350px;
+    top: 1500px;
+    left: 850px;
+    border-radius: 30px;
+}
+
+.rectangle4 img{
+    display: flex;
+    position: absolute;
+    width: 270px;
+    left: 70px;
+    top: 40px;
+}
+
+.rectangle4 h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    top: 90px;
+    left: 380px;
+}
+
+.rectangle4 h2{
+    display: flex;
+    position: absolute;
+    color: red;
+    font-size: 36px;
+    font-weight: bold;
+    top: 190px;
+    left: 410px;
+}
+
+.rectangle5{
+    display: flex;
+    position: absolute;
+    background-color: pink;
+    opacity: 90%;
+    width: 700px;
+    height: 350px;
+    top: 2200px;
+    left: 30px;
+    border-radius: 30px;
+}
+
+.rectangle5 img{
+    display: flex;
+    position: absolute;
+    width: 270px;
+    left: 60px;
+    top: 40px;
+}
+
+.rectangle5 h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    top: 90px;
+    left: 400px;
+}
+
+.rectangle5 h2{
+    display: flex;
+    position: absolute;
+    color: red;
+    font-size: 36px;
+    font-weight: bold;
+    top: 190px;
+    left: 380px;
+}
+
+.rectangle6{
+    display: flex;
+    position: absolute;
+    background-color: pink;
+    opacity: 90%;
+    width: 700px;
+    height: 350px;
+    top: 2200px;
+    left: 850px;
+    border-radius: 30px;  
+}
+
+.rectangle6 img{
+    display: flex;
+    position: absolute;
+    width: 270px;
+    left: 60px;
+    top: 80px;
+}
+
+.rectangle6 h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    top: 90px;
+    left: 400px;
+}
+
+.rectangle6 h2{
+    display: flex;
+    position: absolute;
+    color: red;
+    font-size: 36px;
+    font-weight: bold;
+    top: 190px;
+    left: 350px;
+}
+
+.footer{
+    background-color: #F7C954;
+    position: absolute;
+    width: 1583px;
+    height: 238px;
+    left: 0px;
+    top: 2700px;
+}
+
+.footer .ig img{
+    display: flex;
+    position: absolute;
+    width: 90px;
+    left: 100px;
+    top: 80px;
+}
+
+.footer .ig h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 40px;
+    top: 100px;
+    left: 210px;
+}
+
+.footer .WA img{
+    display: flex;
+    position: absolute;
+    width: 90px;
+    left: 550px;
+    top: 87px;
+}
+
+.footer .WA h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 40px;
+    top: 100px;
+    left: 640px;
+}
+
+.footer .fb img{
+    display: flex;
+    position: absolute;
+    width: 80px;
+    left: 1050px;
+    top: 83px;
+}
+
+.footer .fb h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 40px;
+    top: 100px;
+    left: 1160px;
+}

@@ -1,0 +1,280 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: sans-serif;   
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+.btn{
+    display: inline-block;
+    position: absolute;
+    text-decoration: none;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: white;
+    color: black;
+    padding: .9rem 3.5rem;
+    font-size: 20px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .logo img{
+    display: flex;
+    width: 130px;
+}
+
+header .navbar a{
+    font-size: 20px;
+    padding: 0 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+header .navbar a:hover{
+    color: red;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F6BD89;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .home_atas{
+    max-width: 50rem;
+}
+
+.home .home_atas h1{
+    font-size: 50px;
+    display: flex;
+    color: black;
+}
+
+.home .home_atas span{
+    font-size: 50px;
+    display: flex;
+    font-weight: bold;
+    color: #F88E2D;
+}
+
+.home .home_atas p{
+    font-size: 1.5rem;
+    display: flex;
+    color: black;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.home .home_atas img{
+    position: absolute;
+    display: flex;
+    right: 50px;
+    bottom: 40px;
+}
+
+.home2{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FCD4AF;
+    background-size: cover;
+    background-position: center;
+}
+
+.home2 .home_tengah h1{
+    display: flex;
+    font-size: 50px;
+    color: black;
+}
+
+.home2 .home_tengah span{
+    font-size: 50px;
+    display: flex;
+    font-weight: bold;
+}
+
+.home2 .home_tengah p{
+    font-size: 1.5rem;
+    display: flex;
+    color: black;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.home2 .home_tengah img{
+    position: relative;
+    width: 350px;
+    display: flex;
+    left: 1000px;
+    top: 25px;
+}
+
+.home3{
+    display: flex;
+    align-items: center;
+    min-width: 100vh;
+    background-image: url(./images/pngtree-japanese-picture-background-material-picture-image_1136691.png);
+    background-size: cover;
+}
+
+.home3 .home_bawah h1{
+    display: flex;
+    position: relative;
+    left: 530px;
+}
+
+.home3 .rectangle1{
+    display: flex;
+    position: relative;
+    background-color: #F6BD89;
+    opacity: 60%;
+    border-radius: 5rem;
+    width: 400px;
+    height: 606px;
+    left: 146px;
+    top: 20px;
+}
+
+.home3 .toripaitan img{
+    display: flex;
+    position: absolute;
+    top: 1800px;
+    width: 500px;
+    left: 295px;
+}
+
+.home3 .toripaitan h1{
+    display: flex;
+    position: absolute;
+    top: 2200px;
+    left: 388px;
+    font-weight: lighter;
+}
+
+.home3 .toripaitan h2{
+    display: flex;
+    position: absolute;
+    top: 2300px;
+    left: 400px;
+    font-weight: bold;
+    color: red;
+}
+
+.home3 .rectangle2{
+    display: flex;
+    position: absolute;
+    background-color: #F6BD89;
+    opacity: 60%;
+    border-radius: 5rem;
+    width: 400px;
+    height: 606px;
+    left: 846px;
+    top: 1763px;
+}
+
+.home3 .karai img{
+    display: flex;
+    position: absolute;
+    top: 1800px;
+    width: 300px;
+    left: 900px;
+}
+
+.home3 .karai h1{
+    display: flex;
+    position: absolute;
+    top: 2200px;
+    left: 980px;
+    font-weight: lighter;
+}
+
+.home3 .karai h2{
+    display: flex;
+    position: absolute;
+    top: 2300px;
+    left: 965px;
+    font-weight: bold;
+    color: red;
+}
+
+.home4{
+    display: flex;
+    align-items: center;
+    min-width: 100vh;
+    background-color: #F7C954;
+    background-size: 100px;
+}
+
+.home4 .insta h1{
+    font-weight: lighter;
+    display: flex;
+    position: relative;
+    top: 28px;
+    bottom: 1px;
+    left: 100px;
+} 
+
+.home4 .insta img{
+    display: flex;
+    position: relative;
+    width: 70px;
+    left: 10px;
+    bottom: 14px;
+}
+
+.home4 .whatssapp h1{
+    font-weight: lighter;
+    display: flex;
+    position: relative;
+    top: 28px;
+    bottom: 5px;
+    left: 450px;
+}
+
+.home4 .whatssapp img{
+    display: flex;
+    position: relative;
+    width: 80px;
+    left: 350px;
+    bottom: 14px;
+}
+
+.home4 .facebook h1{
+    font-weight: lighter;
+    display: flex;
+    position: relative;
+    top: 32px;
+    bottom: 2px;
+    left: 750px;
+}
+
+.home4 .facebook img{
+    display: flex;
+    position: relative;
+    width: 65px;
+    left: 650px;
+    bottom: 14px;
+}

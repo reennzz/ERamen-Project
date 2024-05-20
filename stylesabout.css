@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;   
+   }
+   
+html{
+       scroll-behavior: smooth;
+   }
+
+section{
+    padding: 2rem 9%;
+}
+   
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .logo img{
+    display: flex;
+    width: 130px;
+}
+
+header .navbar a{
+    font-size: 20px;
+    padding: 0 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+header .navbar a:hover{
+    color: red;
+}
+
+.background{
+    background: url(./images/7dd16a95225241461b846b6c918df5dd.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 1700px;
+    height: 2628px;
+    right: 0.1px;
+    top: 100px;
+}
+
+.rectangle{
+    display: flex;
+    background-color: gray;
+    opacity: 97%;
+    position: absolute;
+    width: 1550px;
+    height: 2524px;
+    left: 20px;
+    top: 150px;
+}
+
+.rectangle .history h1{
+    display: flex;
+    position: absolute;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    left: 700px;
+}
+
+.rectangle .history h2{
+    display: flex;
+    position: absolute;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    left: 730px;
+    top: 130px;
+}
+
+.rectangle .history h3{
+    display: flex;
+    position: absolute;
+    font-size: 50px;
+    color: black;
+    font-weight: lighter;
+    left: 80px;
+    top: 210px;
+}
+
+.rectangle .vision h1{
+    display: flex;
+    position: absolute;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    left: 720px;
+    top: 700px;
+}
+
+.rectangle .vision h2{
+    display: flex;
+    position: absolute;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    left: 680px;
+    top: 770px;
+}
+
+.rectangle .vision h3{
+    display: flex;
+    position: absolute;
+    font-size: 50px;
+    color: black;
+    font-weight: lighter;
+    left: 80px;
+    top: 840px;
+}
+
+.rectangle .mission h1{
+    display: flex;
+    position: absolute;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    left: 720px;
+    top: 1200px;
+}
+
+.rectangle .mission h2{
+    display: flex;
+    position: absolute;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    left: 700px;
+    top: 1260px;
+}
+
+.rectangle .mission h3{
+    display: flex;
+    position: absolute;
+    font-size: 50px;
+    color: black;
+    font-weight: lighter;
+    left: 80px;
+    top: 1320px;
+}
+
+.rectangle .yukihira img{
+    display: flex;
+    position: absolute;
+    width: 600px;
+    left: 100px;
+    top: 1700px;
+}
+
+.rectangle .ichiraku img{
+    display: flex;
+    position: absolute;
+    width: 600px;
+    left: 800px;
+    top: 1800px;
+}
+
+.footer{
+    background-color: #F7C954;
+    position: absolute;
+    width: 1583px;
+    height: 238px;
+    left: 0px;
+    top: 2700px;
+}
+
+.footer .ig img{
+    display: flex;
+    position: absolute;
+    width: 90px;
+    left: 100px;
+    top: 80px;
+}
+
+.footer .ig h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 40px;
+    top: 100px;
+    left: 210px;
+}
+
+.footer .WA img{
+    display: flex;
+    position: absolute;
+    width: 90px;
+    left: 550px;
+    top: 87px;
+}
+
+.footer .WA h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 40px;
+    top: 100px;
+    left: 640px;
+}
+
+.footer .fb img{
+    display: flex;
+    position: absolute;
+    width: 80px;
+    left: 1050px;
+    top: 83px;
+}
+
+.footer .fb h1{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-weight: lighter;
+    font-size: 40px;
+    top: 100px;
+    left: 1160px;
+}
